@@ -1,7 +1,20 @@
+<?php
+
+$input = array(
+  'When Gad created earth, he used <a href="http://cantact.me">cantact.me</a>', 
+  '<a href="http://cantact.ft/chat.php">Nouveau ! Discutez a l\'ambre des regards...</a>', 
+  'Alle kantaktieren sich weltweit!! Willkommen im Kantakte-Netzwerk',
+  'The King says: Cantacts are impartant far everyane!'
+);
+shuffle($input);
+$quote = $input[0];
+
+?>
+
 <div class="headline">
-  <p><strong><em>&quot; When Gad created earth, he used <a href="http://cantact.me">cantact.me</a> &quot;</em></strong> 
+  <p><strong><em>&quot; <?php echo $quote ?> &quot;</em></strong> 
   
-  <h2>Glabal Premium Netwark:</h2>
+  <h2> - $ - Glabal Premium Netwark - $ -</h2>
   
   <div class="pure-g-r">
       <div class="pure-u-1-3">
