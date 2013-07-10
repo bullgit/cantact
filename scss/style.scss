@@ -5,8 +5,13 @@ body {
   font: 1em 'Droid Sans', Arial, sans-serif;
 }
 
-.alpha {
-  background: #ccc;
+.btn {
+  &.alpha {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: 1em;
+  }
 }
 
 p {
@@ -86,7 +91,7 @@ iframe {
   max-width: 100%;
 }
 footer {
-  margin: 3em 0 0 0;
+  margin: 1.5em 0 0 0;
   padding: 2em 0;
   border-top: 2px solid #ccc;
 }

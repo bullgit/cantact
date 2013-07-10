@@ -8,7 +8,7 @@ $quotes = array(
   'Au commencement, il y eut <a href="http://cantact.fr">cantact.fr</a>',
   'A dead cantact is a bad cantact.',
   'It is a bird? It is a plane? Na, it\'s <b>Super-Cantact</b> in the Sky.',
-  '<b>Chuck Norris</b> invented Cantact.me while playing all the main casts in <br> Back to the Future, Star Wars & Pulp Fiction. '
+  '<b>Chuck Norris</b> invented Cantact.me while playing all the main casts in <br> Back to the Future, Star Wars & Pulp Fiction.'
 );
 
 shuffle($quotes);
