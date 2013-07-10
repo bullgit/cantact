@@ -11,7 +11,7 @@
     
     <meta property="og:url" content="http://cantact.me/" />
     <meta property="og:title" content="Cantact.me | NSA-free — powered by NSA!" />
-    <meta property="og:image" content="http://cantact.me/cantact.png" />
+    <meta property="og:image" content="http://cantact.me/cantact_200.jpg" />
     <meta property="og:description" content="Getting cantacts is impartant. You want to feel special? Jain Cantact.me" />
 </head>
 <body>
@@ -20,5 +20,7 @@
 
     <header>
         <img src="favicon.ico" width="24" class="logo" alt="K"/>
-        <h1><a href="./">Cantact.me</a> <small>NSA-free &mdash; powered by NSA!</small></h1>
+        <h1>
+            <a href="./">Cantact.me</a> <small>NSA-free &mdash; powered by NSA!</small>
+        </h1>
     </header>
