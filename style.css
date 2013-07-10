@@ -22,7 +22,7 @@ a:hover, a:active {
 	padding: 0 1em;
 }
 header {
-	padding: 1em 0;
+	padding: 1em 0 2em 0;
 	margin-bottom: 2em;
 	border-bottom: 1em solid #ccc;
 }

@@ -5,7 +5,8 @@ $quotes = array(
   '<a href="http://cantact.ft/chat.php">Nouveau ! Discutez a l\'ambre des regards...</a>', 
   'Alle kantaktieren sich weltweit!! Willkommen im Kantakte-Netzwerk',
   'The King says: Cantacts are impartant far everyane!',
-  'Au commencement, il y eut <a href="http://cantact.fr">cantact.fr</a>'
+  'Au commencement, il y eut <a href="http://cantact.fr">cantact.fr</a>',
+  'A dead cantact is a bad cantact.'
 );
 
 shuffle($quotes);
