@@ -1,16 +1,23 @@
 <div class="headline">
-    <p><strong><em>&quot; Get new cantacts and win a chargeable dinasaur! &quot;</em></strong> 
+  <p><strong><em>&quot; When Gad created earth, he used <a href="http://cantact.de">cantact.de</a> &quot;</em></strong> 
+  
+  <h2>Glabal Premium Netwark:</h2>
+  
+  <div class="pure-g-r">
+      <div class="pure-u-1-3">
+          <p><a href="http://kantakte.de" target="_blank">Deutsch</a></p>
+      </div>
+  
+      <div class="pure-u-1-3">
+          <p><a href="http://cantact.me" target="_blank">English</a></p>
+      </div>
+
+      <div class="pure-u-1-3">
+          <p><a href="http://cantact.fr" target="_blank">Français</a></p>
+      </div>
+  </div>
+    
 </div>
-   
-<p>
-    Cantact us: <a href="https://plus.google.com/101758696861951014050/posts">G+</a>,
-    <a href="https://twitter.com/Cantact_me">T</a> and
-    <a href="https://www.facebook.com/CantactMe">F</a>.
-</p>
-
-<br>
-
-<h2>Cantact-List</h2>
 
 <div id="disqus_thread">
 </div>

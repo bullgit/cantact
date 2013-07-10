@@ -1,6 +1,9 @@
 <footer>
     <ul class="nav-footer">
-        <li><a href="https://github.com/bullgit/cantact">@GitHub</a></li>
+        <li><a href="https://github.com/bullgit/cantact">GitHub</a></li>
+        <li><a href="https://plus.google.com/101758696861951014050/posts">G+</a></li>
+        <li><a href="https://twitter.com/Cantact_me">T</a></li>
+        <li><a href="https://www.facebook.com/CantactMe">F</a></li>
        <!-- <li><a href="schatten.html">Shadaw</a></li>
         <li><a href="agb.html">AGB</a></li>
         <li><a href="datenschutz.html">Datenschutz</a></li>

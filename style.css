@@ -2,10 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 body {
-	font-family: 'Droid Sans', Arial, sans-serif;
+	font: 1em 'Droid Sans', Arial, sans-serif;
 }
 a:link, a:visited {
 	color: #555;
+	text-decoration: none;
 }
 a:hover, a:active {
 	color: #000;
@@ -13,7 +14,7 @@ a:hover, a:active {
 .headline {
 	text-align: center;
 	padding: 0 0 1em 0;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1em solid #ccc;
 }
 .wrapper {
 	max-width: 55em;
@@ -23,7 +24,7 @@ a:hover, a:active {
 header {
 	padding: 1em 0;
 	margin-bottom: 2em;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1em solid #ccc;
 }
 h1 {
 	margin: 0;
@@ -32,7 +33,7 @@ h1 {
 .logo {
 	float: left;
 	margin: 0.4em 1em 0.4em 0;
-	border-radius: 3px;
+	border-radius: .5em;
 }
 header small {
 	float: right;
