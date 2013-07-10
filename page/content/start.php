@@ -17,7 +17,7 @@ $quote = $input[0];
   
   <h2> - $ - Glabal Premium Netwark - $ -</h2>
   
-  <div class="pure-g-r">
+  <div class="pure-g">
       <div class="pure-u-1-3">
           <p><a href="http://kantakte.de" target="_blank">Deutsch</a></p>
       </div>
