@@ -4,7 +4,8 @@ $quotes = array(
   'When Gad created earth, he used <a href="http://cantact.me">cantact.me</a>', 
   '<a href="http://cantact.ft/chat.php">Nouveau ! Discutez a l\'ambre des regards...</a>', 
   'Alle kantaktieren sich weltweit!! Willkommen im Kantakte-Netzwerk',
-  'The King says: Cantacts are impartant far everyane!'
+  'The King says: Cantacts are impartant far everyane!',
+  'Au commencement, il y eut <a href="http://cantact.fr">cantact.fr</a>'
 );
 
 shuffle($quotes);
