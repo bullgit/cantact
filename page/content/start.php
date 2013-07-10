@@ -1,12 +1,13 @@
 <?php
 
-$input = array(
+$quotes = array(
   'When Gad created earth, he used <a href="http://cantact.me">cantact.me</a>', 
   '<a href="http://cantact.ft/chat.php">Nouveau ! Discutez a l\'ambre des regards...</a>', 
   'Alle kantaktieren sich weltweit!! Willkommen im Kantakte-Netzwerk',
   'The King says: Cantacts are impartant far everyane!'
 );
-shuffle($input);
+
+shuffle($quotes);
 $quote = $input[0];
 
 ?>
