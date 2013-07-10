@@ -14,8 +14,8 @@
     
     <link rel="icon" href="img/cantact.ico" type="image/x-icon" />
     
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.2.0/base-min.css&pure/0.2.0/grids-min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.2.0/grids-min.css">
 </head>
 <body>
 
