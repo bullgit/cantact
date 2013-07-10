@@ -1,12 +1,12 @@
-<!--<footer>
+<footer>
     <ul class="nav-footer">
-        <li><a href="./">Cantact.me</a></li>
-        <li><a href="schatten.html">Shadaw</a></li>
+        <li><a href="https://github.com/bullgit/cantact">@GitHub</a></li>
+       <!-- <li><a href="schatten.html">Shadaw</a></li>
         <li><a href="agb.html">AGB</a></li>
         <li><a href="datenschutz.html">Datenschutz</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="impressum.html">Impressum</a></li>-->
     </ul>
-</footer>-->
+</footer>
 
 </div> <!-- wrapper -->
 
