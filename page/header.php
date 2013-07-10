@@ -22,7 +22,7 @@
 <div class="wrapper">
 
     <header>
-        <img src="img/cantact_200.jpg" width="100" class="logo" alt="K"/>
+        <img src="img/cantact_200.jpg" width="100" class="logo" alt="C"/>
         <h1>
             <a href="./">Cantact.me</a> <small>NSA-free &mdash; powered by NSA!</small>
         </h1>
