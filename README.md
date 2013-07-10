@@ -1,4 +1,4 @@
 cantact
 =======
 
-cantact.me / kontakte.de / contacts.fr
+cantact.me / kontakte.de / contact.fr
