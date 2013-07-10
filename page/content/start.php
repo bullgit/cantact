@@ -8,7 +8,7 @@ $quotes = array(
 );
 
 shuffle($quotes);
-$quote = $input[0];
+$quote = $quotes[0];
 
 ?>
 
