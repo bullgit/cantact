@@ -1,5 +1,5 @@
 <div class="headline">
-  <p><strong><em>&quot; When Gad created earth, he used <a href="http://cantact.de">cantact.de</a> &quot;</em></strong> 
+  <p><strong><em>&quot; When Gad created earth, he used <a href="http://cantact.me">cantact.me</a> &quot;</em></strong> 
   
   <h2>Glabal Premium Netwark:</h2>
   
