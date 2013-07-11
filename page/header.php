@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cantact.me | English | NSA-free — powered by NSA!</title>
+    <title>Cantact.fr | France | NSA-free — powered by NSA!</title>
     <meta charset="utf-8">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -24,7 +24,7 @@
     <header>
         <img src="img/cantact_200.jpg" class="logo" alt="C"/>
         <h1>
-            <a href="./">Cantact.me</a> | English
+            <a href="./">Cantact.fr</a> | France
             
             <small>NSA-free &mdash; powered by NSA!</small>
         </h1>
