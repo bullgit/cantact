@@ -5,6 +5,7 @@ $quotes = array(
   '<a href="http://cantact.ft/chat.php">Nouveau ! Discutez a l\'ambre des regards...</a>', 
   'Alle <b>kantaktieren</b> sich weltweit!! Willkammen im <b>Kantakte-Netzwerk</b>',
   'The King says: <b>Cantacts</b> are <b>impartants</b> far <b>everyane</b>!',
+  'Avec <b>Cantact</b> faites vous des cantacts avec tact!',
   'Au commencement, il y eut <a href="http://cantact.fr">cantact.fr</a>',
   'A dead cantact is a bad cantact.',
   'It is a bird? It is a plane? Na, it\'s <b>Super-Cantact</b> in the Sky.',
@@ -34,9 +35,9 @@ if (isset($_SESSION["last-quote"]) && $_SESSION["last-quote"] == $quote) {
   <blockquote> <?php echo $quote ?> </blockquote>
 
   <div class="pure-g">
-    <div class="pure-u-1 helper--beta">
+   <!-- <div class="pure-u-1 helper--beta">
       <b><a href="https://coderwall.com/p/petbja" target="_blank">Cantact.me in the news!</a></b>
-    </div>
+    </div> -->
     
     <div class="pure-u-1">
       <h2> - $ - <a href="http://cantactdeck.com">Glabal Premium Netwark</a> - $ -</h2>
