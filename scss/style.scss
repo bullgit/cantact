@@ -1,15 +1,82 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
+@import "compass";
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 85em) { @content; }
+  }
+  @if $point == medium {
+    @media (max-width: 85em) { @content; }
+  }
+  @if $point == small {
+    @media (max-width: 60em) { @content; } 
+  }
+}
+
+$color-alpha: #95a5a6;
+$color-beta: #bdc3c7;
+
 body {
   font: 1em 'Droid Sans', Arial, sans-serif;
 }
 
+.wrapper {
+  max-width: 55em;
+  margin: 0 auto;
+  padding: 0 1em;
+
+  @include breakpoint(small) {
+    padding: 0 .25em;
+  }
+
+  @include breakpoint(large) {
+    max-width: 75em;
+  }
+}
+
+.helper--alpha {
+  margin-top: .5em;
+  padding-top: 1em;
+}
+
+.helper--beta {
+  @extend .helper--alpha;
+  border-top: .25em solid $color-beta;
+}
+
 .btn {
+  @include transition(
+    background .15s ease-in-out,
+    color .15s ease-in-out
+  );
+
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  
   &.alpha {
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-    height: 1em;
+    height: 2em;
+    padding: 1em 0 .5em 0;
+
+    &:hover {
+      background: $color-alpha;
+      color: #fff;
+    }
+  }
+
+  &.beta {
+    height: 3em;
+    padding: 2em 0 0 0;
+    background: $color-alpha;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    &:hover {
+      background: $color-beta;
+      color: #fff;
+    }
   }
 }
 
@@ -21,9 +88,7 @@ blockquote {
 }
 
 h2 {
-  border-top: .25em solid #ccc;
-  margin-top: 1.5em;
-  padding-top: 1.5em;
+
 }
 
 a:link, a:visited {
@@ -33,31 +98,35 @@ a:link, a:visited {
 a:hover, a:active {
   color: #000;
 }
+
 .headline {
   text-align: center;
   padding: 0 0 1em 0;
-  border-bottom: 1em solid #ccc;
+  border-bottom: 1em solid $color-beta;
 }
-.wrapper {
-  max-width: 55em;
-  margin: 0 auto;
-  padding: 0 1em;
-}
+
 header {
   padding: 1em 0 1.5em 0;
   margin-bottom: 2em;
-  border-bottom: 1em solid #ccc;
+  border-bottom: 1em solid $color-beta;
   line-height: 5.5em;
 }
 h1 {
   margin: 0;
   padding: 0;
 }
+
 .logo {
   float: left;
   margin: 0.4em 1em 0.4em 0;
   border-radius: .5em;
+  width: 100px;
+
+  @include breakpoint(small) {
+    width: 60px;
+  }
 }
+
 header small {
   float: right;
   font-size: 60%;
@@ -77,7 +146,7 @@ iframe {
 footer {
   margin: 1.5em 0 0 0;
   padding: 1em 0;
-  border-top: 1em solid #ccc;
+  border-top: 1em solid $color-beta;
 }
 .nav-footer {
   list-style: none;
