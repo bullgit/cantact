@@ -6,7 +6,7 @@
       </div>
   
       <div class="pure-u-1-4">
-          <a class="btn alpha" href="https://plus.google.com/101758696861951014050/posts">Google+</a>
+          <a class="btn alpha" href="https://plus.google.com/101758696861951014050/posts">Gaagle+</a>
       </div>
 
       <div class="pure-u-1-4">
@@ -14,7 +14,7 @@
       </div>
       
       <div class="pure-u-1-4">
-          <a class="btn alpha" href="https://www.facebook.com/CantactMe">Facebook</a>
+          <a class="btn alpha" href="https://www.facebook.com/CantactMe">Facebaak</a>
       </div>
   </div>
   
